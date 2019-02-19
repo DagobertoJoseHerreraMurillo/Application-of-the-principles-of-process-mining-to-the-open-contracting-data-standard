@@ -2,11 +2,17 @@
 
 ##### Table of Contents  
 [Introduction](#introduction)  
+
 [Process model](#process)
+
 [Data description](#data)
+
 [Descriptive analyss](#descriptive)
+
 [Graphs](#graphs)
+
 [Unsupervised fraud detection](#unsupervised)
+
 [Association rules](#association)
 
     
