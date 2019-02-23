@@ -21,11 +21,20 @@ https://neo4j.com/graphgist/importing-csv-files-with-cypher
 
 #Create companies
 LOAD CSV WITH HEADERS FROM "file:///companies.csv" AS row
-CREATE (p:Company {id: toInt(row.id), name: row.name})
+CREATE (p:Company {id: (row.id), name: row.name})
 
 #Create contracts
 LOAD CSV WITH HEADERS FROM "file:///contracts.csv" AS row
-CREATE (contract:Contract{id:toInt(row.id)})
+CREATE (contract:Contract{id:(row.id)})
+
+#Create constrains
+CREATE CONSTRAINT ON (p:Company) ASSERT p.id IS UNIQUE
+CREATE CONSTRAINT ON (contract:Contract) ASSERT contract.id IS UNIQUE
+
+#Create relations
+LOAD CSV WITH HEADERS FROM "file:///relations.csv" AS row
+MATCH (company:Company { id:(row.company)}),(contract:Contract { id:(row.contract)})
+CREATE (company)-[:PARTICIPATED]->(contract)
 
 
 [Unsupervised fraud detection](#unsupervised)
