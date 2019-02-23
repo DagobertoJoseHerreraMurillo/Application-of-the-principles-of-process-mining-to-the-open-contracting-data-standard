@@ -44,3 +44,14 @@ CREATE (company)-[:PARTICIPATED]->(contract)
     
 <a name="introduction"/>
 ##Introduction
+
+
+
+
+
+Referencias
+
+#Estafa maestra
+https://www.youtube.com/watch?v=aHMUs1cGypE&feature=youtu.be
+ASF datos
+http://www.asfdatos.gob.mx/
