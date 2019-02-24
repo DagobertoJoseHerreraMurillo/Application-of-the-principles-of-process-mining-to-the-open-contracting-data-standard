@@ -47,6 +47,9 @@ CREATE (company)-[:PARTICIPATED]->(contract)
 
 
 
+#colusión
+https://aristeguinoticias.com/1707/lomasdestacado/78-de-contratos-publicos-por-adjudicacion-directa-en-2017-por-licitacion-solo-12-cofece/
+https://www.eleconomista.com.mx/empresas/Cofece-investiga-posible-colusion-en-mercado-de-higiene-20180504-0033.html
 
 
 Referencias
