@@ -58,3 +58,9 @@ Referencias
 https://www.youtube.com/watch?v=aHMUs1cGypE&feature=youtu.be
 ASF datos
 http://www.asfdatos.gob.mx/
+
+Agenda de Competencia para un ejercicio íntegro en las Contrataciones Públicas
+https://www.cofece.mx/wp-content/uploads/2018/07/CPC-ContratacionesPublicas.pdf
+
+Reporte de los datos relevantes de los contratos ingresados a CompraNet que iniciaron vigencia 2010-2019
+https://sites.google.com/site/cnetuc/contrataciones
