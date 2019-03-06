@@ -26,14 +26,9 @@
 [Conclusion](#conclusion)
 
 
-Introduction 
-Motivation
-OCDS
-Contribution
-Background
-Prior Work 
-Impact
-Conclusion
+<a name="introduction"/>
+##Introduction
+
 
 
 
@@ -73,8 +68,6 @@ CREATE (company)-[:PARTICIPATED]->(contract)
 [Association rules](#association)
 
     
-<a name="introduction"/>
-##Introduction
 
 
 
