@@ -39,7 +39,7 @@ Introduction
 
 
 
-<a name="motivation"/>
+<a name="motivation"/><br/>
 Motivation
 
 Governments are active protagonist of the data explosion that in recent years has radically modified the way we live. The Open Data movement seeks that governments and public authorities around the world to publish machine readable data under licenses that allow for unrestricted use, redistribution, modification, separation, compilation, propagation and application to any purpose without charge and without discrimination against any person or group (Open Knowledge Foundation).
