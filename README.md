@@ -32,11 +32,6 @@
 
 
 
-
-
-
-
-
 Directorio de carga
 C:\Users\Dagoberto\.Neo4jDesktop\neo4jDatabases\database-f0deac7c-28e7-4fc6-bc3c-0c4ef4bbd86e\installation-3.5.2\import
 
