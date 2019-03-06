@@ -7,7 +7,7 @@
 
 [Motivation](#motivation)
 
-[OCDS](#OCDS)
+[Open Contracting Data Standard](#OCDS)
 
 [Contribution](#Contribution)
 
@@ -47,9 +47,20 @@ Every year, governments devote gigantic amounts of money to public contracts, fr
 
 
 
+<a name="OCDS"/><br/>
+Open Contracting Data Standard
 
+“Open contracting involves the full chain of government deal-making, from concessions of natural resources to procurement of goods, works, and services for citizens. It starts at the planning stage, and covers tenders, awarding, and implementation of all public contracts” (Open Contracting Partnership). 
 
+Structured and standardized data about public contracting can help stakeholders to:
 
+	deliver better value for money for governments,
+	create fairer competition and a level playing field for business,
+	drive higher-quality goods, works, and services for citizens,
+	prevent fraud and corruption,
+	promote smarter analysis and better solutions for public problems.
+
+The access open to contracting data builds trust and allows to create mechanisms to ensure that the astronomical sums of money spent by governments each year translate into better goods, services, and infrastructure projects for the direct benefit of citizens.
 
 
 
