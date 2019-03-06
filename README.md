@@ -29,6 +29,8 @@
 
 [Conclusion](#conclusion)
 
+[References](#references)
+
 
 
 
@@ -87,6 +89,9 @@ This thesis is to provide a mechanism for the detection of irregular behavior in
 
 "Process mining is a relative young research discipline that sits between machine learning and data mining on the one hand and process modeling and analysis on the other hand. The idea of process mining is to discover, monitor and improve real processes (i.e., not assumed processes) by extracting knowledge from event logs readily available in today’s systems" (van der Aalst, 2016, p.31).
 
+There is a clear association between conformance checking and fraud detection, especially when fraud is conceptualized as a deviation from normal operating procedures and processes (Stoop & Oezer, 2012).
+
+
 <a name="process"/><br/>
 **Process model**
 
@@ -98,3 +103,8 @@ This thesis is to provide a mechanism for the detection of irregular behavior in
 
 <a name="conclusion"/><br/>
 **Conclusion**
+
+<a name="references"/><br/>
+**References**
+
+Stoop, J., & Oezer, T. (2012). Process Mining and Fraud Detection.
