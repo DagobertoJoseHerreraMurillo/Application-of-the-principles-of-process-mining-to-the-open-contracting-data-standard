@@ -72,6 +72,8 @@ The site datos.gob.mx publishes a dataset of 300,264 open contracting procedures
 <a name="Contribution"/><br/>
 **Contribution**
 
+This thesis is to provide a mechanism for the detection of irregular behavior in contracts published under the standard of open public contracts. The idea is to develop a hybrid method that can combine the strengths of the process mining and some of the techniques of data mining that have traditionally been used in the prevention and detection of fraud.
+
 <a name="Background"/><br/>
 **Background**
 
