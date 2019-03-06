@@ -17,6 +17,8 @@
 
 [Process mining](#mining)
 
+[Research questions](#question)
+
 [Process model](#process)
 
 [Data description](#data)
@@ -91,6 +93,10 @@ This thesis is to provide a mechanism for the detection of irregular behavior in
 
 There is a clear association between conformance checking and fraud detection, especially when fraud is conceptualized as a deviation from normal operating procedures and processes (Stoop & Oezer, 2012).
 
+<a name="question"/><br/>
+**Research questions**
+
+1. How can process mining be effectively combined with other data mining techniques for the detection and prevention of threats of corruption, collusion, or anti-competitive practices in public contracting processes?
 
 <a name="process"/><br/>
 **Process model**
