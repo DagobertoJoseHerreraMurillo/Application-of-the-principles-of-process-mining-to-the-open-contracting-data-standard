@@ -31,7 +31,7 @@
 
 
 <a name="introduction"/>
-Introduction
+**Introduction**
 
 
 
@@ -40,7 +40,7 @@ Introduction
 
 
 <a name="motivation"/><br/>
-Motivation
+**Motivation**
 
 Governments are active protagonist of the data explosion that in recent years has radically modified the way we live. The Open Data movement seeks that governments and public authorities around the world to publish machine readable data under licenses that allow for unrestricted use, redistribution, modification, separation, compilation, propagation and application to any purpose without charge and without discrimination against any person or group (Open Knowledge Foundation).
 Every year, governments devote gigantic amounts of money to public contracts, from papers and pencils to large infrastructure projects such as airports, roads, schools and hospitals. The size of public procurement represents approximately 12% of GDP in OECD countries (OECD, 2017). This significant volume of resources along with the complex interaction between public and private interests exposes the public contracting processes to multiple risks of waste, inefficiency, fraud, corruption, and uncompetitive practices throughout the whole procurement life-cycle.
@@ -48,7 +48,7 @@ Every year, governments devote gigantic amounts of money to public contracts, fr
 
 
 <a name="OCDS"/><br/>
-Open Contracting Data Standard
+**Open Contracting Data Standard**
 
 “Open contracting involves the full chain of government deal-making, from concessions of natural resources to procurement of goods, works, and services for citizens. It starts at the planning stage, and covers tenders, awarding, and implementation of all public contracts” (Open Contracting Partnership). 
 
