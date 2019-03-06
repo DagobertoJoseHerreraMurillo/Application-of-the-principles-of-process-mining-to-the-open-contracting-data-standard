@@ -15,6 +15,8 @@
 
 [Prior Work](#PriorWork)
 
+[Process mining](#mining)
+
 [Process model](#process)
 
 [Data description](#data)
@@ -79,6 +81,11 @@ This thesis is to provide a mechanism for the detection of irregular behavior in
 
 <a name="PriorWork"/><br/>
 **Prior Work**
+
+<a name="mining"/><br/>
+**Process mining**
+
+"Process mining is a relative young research discipline that sits between machine learning and data mining on the one hand and process modeling and analysis on the other hand. The idea of process mining is to discover, monitor and improve real processes (i.e., not assumed processes) by extracting knowledge from event logs readily available in today’s systems" (van der Aalst, 2016, p.31).
 
 <a name="process"/><br/>
 **Process model**
