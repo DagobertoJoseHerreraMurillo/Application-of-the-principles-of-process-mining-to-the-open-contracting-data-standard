@@ -19,7 +19,7 @@
 
 [Data description](#data)
 
-[Descriptive analyss](#descriptive)
+[Descriptive analsys](#descriptive)
 
 [Graphs](#graphs)
 
@@ -63,6 +63,10 @@ Structured and standardized data about public contracting can help stakeholders 
 The access open to contracting data builds trust and allows to create mechanisms to ensure that the astronomical sums of money spent by governments each year translate into better goods, services, and infrastructure projects for the direct benefit of citizens.
 
 
+<a name="data"/><br/>
+**Data description**
+
+The site datos.gob.mx publishes a dataset of 300,264 open contracting procedures of the Mexican federal public administration from January 2017 to date. The systems that feed this portal are managed by the Ministry of Public Administration and the Ministry of Finance and Public Credit. The published information is the responsibility of each public institution that reports it.
 
 
 
