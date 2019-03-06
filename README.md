@@ -54,11 +54,11 @@ Open Contracting Data Standard
 
 Structured and standardized data about public contracting can help stakeholders to:
 
-	deliver better value for money for governments,
-	create fairer competition and a level playing field for business,
-	drive higher-quality goods, works, and services for citizens,
-	prevent fraud and corruption,
-	promote smarter analysis and better solutions for public problems.
+> *	deliver better value for money for governments,
+> *	create fairer competition and a level playing field for business,
+> *	drive higher-quality goods, works, and services for citizens,
+> *	prevent fraud and corruption,
+> *	promote smarter analysis and better solutions for public problems.
 
 The access open to contracting data builds trust and allows to create mechanisms to ensure that the astronomical sums of money spent by governments each year translate into better goods, services, and infrastructure projects for the direct benefit of citizens.
 
