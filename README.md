@@ -11,7 +11,7 @@
 
 [Background](#Background)
 
-[Prior Work](#Prior Work)
+[Prior Work](#PriorWork)
 
 [Process model](#process)
 
