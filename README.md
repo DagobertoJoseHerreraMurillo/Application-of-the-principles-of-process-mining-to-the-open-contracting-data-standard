@@ -3,6 +3,16 @@
 ##### Table of Contents  
 [Introduction](#introduction)  
 
+[Motivation](#motivation)
+
+[OCDS](#OCDS)
+
+[Contribution](#Contribution)
+
+[Background](#Background)
+
+[Prior Work](#Prior Work)
+
 [Process model](#process)
 
 [Data description](#data)
@@ -10,6 +20,27 @@
 [Descriptive analyss](#descriptive)
 
 [Graphs](#graphs)
+
+[Impact](#impact)
+
+[Conclusion](#conclusion)
+
+
+Introduction 
+Motivation
+OCDS
+Contribution
+Background
+Prior Work 
+Impact
+Conclusion
+
+
+
+
+
+
+
 
 Directorio de carga
 C:\Users\Dagoberto\.Neo4jDesktop\neo4jDatabases\database-f0deac7c-28e7-4fc6-bc3c-0c4ef4bbd86e\installation-3.5.2\import
