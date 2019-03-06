@@ -1,5 +1,7 @@
 # Application-of-the-principles-of-process-mining-to-the-open-contracting-data-standard
 
+"This thesis is dedicated to all those who work for the cause of open government and open data. The revolution you are promoting will transform our world into a more democratic and just place for all".
+
 ##### Table of Contents  
 [Introduction](#introduction)  
 
@@ -28,6 +30,24 @@
 
 <a name="introduction"/>
 Introduction
+
+
+
+
+<a name="motivation"/>
+Motivation
+
+Governments are active protagonist of the data explosion that in recent years has radically modified the way we live. The Open Data movement seeks that governments and public authorities around the world to publish machine readable data under licenses that allow for unrestricted use, redistribution, modification, separation, compilation, propagation and application to any purpose without charge and without discrimination against any person or group (Open Knowledge Foundation).
+Every year, governments devote gigantic amounts of money to public contracts, from papers and pencils to large infrastructure projects such as airports, roads, schools and hospitals. The size of public procurement represents approximately 12% of GDP in OECD countries (OECD, 2017). This significant volume of resources along with the complex interaction between public and private interests exposes the public contracting processes to multiple risks of waste, inefficiency, fraud, corruption, and uncompetitive practices throughout the whole procurement life-cycle.
+
+
+
+
+
+
+
+
+
 
 
 
