@@ -98,13 +98,15 @@ There is a clear association between conformance checking and fraud detection, e
 
 How can process mining be effectively combined with other data mining techniques for the detection and prevention of threats of corruption, collusion, or anti-competitive practices in public contracting processes?
 
+This main question can be split into the following sub-questions:
+
 What are the main indicators or red flags that suggest the presence of any irregularity in a public contracting process?
 
 Which functional techniques of process mining can be used in the detection of which red flags in public procurement processes and what are their benefits?
 
 In what characteristics do the conventional techniques of data mining used in the detection of fraud resemble the functional techniques of process mining and what are the possibilities of integration of both approaches in the detection of which red flags in public procurement processes?
 
-
+How could a hybrid model (process mining + data mining) be used to detect red flags in public procurement processes in accordance with the characteristics of the Open Contracting Data Standard?
 
 <a name="process"/><br/>
 **Process model**
