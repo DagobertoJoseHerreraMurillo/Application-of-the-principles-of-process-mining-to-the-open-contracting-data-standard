@@ -111,6 +111,14 @@ How could a hybrid model (process mining + data mining) be used to detect red fl
 <a name="process"/><br/>
 **Process model**
 
+
+Business similarities between suppliers: Common addresses, personnel, phone numbers
+
+
+
+
+
+
 <a name="descriptive"/><br/>
 **Descriptive analsys**
 
