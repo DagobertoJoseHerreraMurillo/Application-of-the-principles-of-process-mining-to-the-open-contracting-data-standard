@@ -42,6 +42,10 @@ Caso de México
 
 [Conclusion](#conclusion)
 
+Conclusión Aplicación al Standard y aplicación a México
+
+Sección de recomendaciones y trabajos futuros
+
 [References](#references)
 
 
