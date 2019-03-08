@@ -23,6 +23,8 @@
 
 [Data description](#data)
 
+[Event logs](#eventLogs)
+
 [Descriptive analsys](#descriptive)
 
 [Graphs](#graphs)
@@ -73,6 +75,15 @@ The access open to contracting data builds trust and allows to create mechanisms
 **Data description**
 
 The site datos.gob.mx publishes a dataset of 300,264 open contracting procedures of the Mexican federal public administration from January 2017 to date. The systems that feed this portal are managed by the Ministry of Public Administration and the Ministry of Finance and Public Credit. The published information is the responsibility of each public institution that reports it.
+
+<a name="eventLogs"/><br/>
+**Event logs**
+
+Chapter 4
+Getting the Data
+
+CORREGIR PORQUE ESTÁ COPIADO
+The information produced by the various processes is saved in event logs. In order to use this data for process mining, it needs to be modeled into a usable format. The aspect that is most relevant in this thesis is transformation. Current ERP use big relational tables, linking different tables by using keys. For process mining however, and especially aspects beyond process discovery, it is important to have a complete view on the dataset. Therefore it is important to make sure that all required information concerning the process is combined into the event log; this is called flattening of data.
 
 
 <a name="Contribution"/><br/>
