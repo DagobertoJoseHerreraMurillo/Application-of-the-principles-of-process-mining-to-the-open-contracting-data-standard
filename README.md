@@ -20,9 +20,15 @@ Presentar resultados de aplicación de data mining a detección de fraude, luego
 
 [Process mining](#mining)
 
+
+Presentar desarrollo de meetodología
+
 [Research questions](#question)
 
 [Process model](#process)
+
+
+Caso de México
 
 [Data description](#data)
 
