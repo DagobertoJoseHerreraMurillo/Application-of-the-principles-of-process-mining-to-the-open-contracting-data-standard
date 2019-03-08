@@ -71,6 +71,12 @@ Structured and standardized data about public contracting can help stakeholders 
 The access open to contracting data builds trust and allows to create mechanisms to ensure that the astronomical sums of money spent by governments each year translate into better goods, services, and infrastructure projects for the direct benefit of citizens.
 
 
+<a name="contribution"/><br/>
+**Contribution**
+Fortalezas y debilidades de Data Mining y Process Mining y proponer híbrido
+
+
+
 <a name="data"/><br/>
 **Data description**
 
