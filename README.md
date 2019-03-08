@@ -161,4 +161,7 @@ Business similarities between suppliers: Common addresses, personnel, phone numb
 <a name="references"/><br/>
 **References**
 
+Anexo
+
+
 Stoop, J., & Oezer, T. (2012). Process Mining and Fraud Detection.
