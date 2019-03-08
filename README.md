@@ -13,6 +13,9 @@
 
 [Background](#Background)
 
+
+Presentar resultados de aplicación de data mining a detección de fraude, luego lo mismo con process mining y finalmente los esfuerzos por combinarlos.
+
 [Prior Work](#PriorWork)
 
 [Process mining](#mining)
