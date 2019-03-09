@@ -13,7 +13,6 @@
 
 [Background](#Background)
 
-
 Presentar resultados de aplicación de data mining a detección de fraude, luego lo mismo con process mining y finalmente los esfuerzos por combinarlos.
 
 [Prior Work](#PriorWork)
@@ -21,7 +20,7 @@ Presentar resultados de aplicación de data mining a detección de fraude, luego
 [Process mining](#mining)
 
 
-Presentar desarrollo de meetodología
+Presentar desarrollo de metodología
 
 [Research questions](#question)
 
