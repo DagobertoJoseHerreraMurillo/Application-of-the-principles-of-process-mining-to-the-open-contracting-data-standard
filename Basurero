@@ -35,3 +35,32 @@ Reporte de los datos relevantes de los contratos ingresados a CompraNet que inic
 
 XES format
 http://www.xes-standard.org/
+
+
+
+
+
+LOAD CSV WITH HEADERS FROM "file:///companies.csv" AS row CREATE (p:Company {rfc: (row.rfc), name: row.name})
+
+LOAD CSV WITH HEADERS FROM "file:///contracts.csv" AS row CREATE (contract:Contract{ocid:(row.ocid)})
+
+LOAD CSV WITH HEADERS FROM "file:///contacts.csv" AS row CREATE (contact:Contact{contact:(row.contact)})
+
+LOAD CSV WITH HEADERS FROM "file:///address.csv" AS row CREATE (address:Address{address:(row.address)})
+
+LOAD CSV WITH HEADERS FROM "file:///email.csv" AS row CREATE (email:Email{email:(row.email)})
+
+LOAD CSV WITH HEADERS FROM "file:///telephone.csv" AS row CREATE (telephone:Telephone{telephone:(row.telephone)})
+
+LOAD CSV WITH HEADERS FROM "file:///rcc.csv" AS row MATCH (company:Company { rfc:(row.rfc)}),(contract:Contract { ocid:(row.ocid)}) CREATE (company)-[:PARTICIPATED]->(contract)
+
+LOAD CSV WITH HEADERS FROM "file:///rc.csv" AS row MATCH (company:Company { rfc:(row.rfc)}),(contact:Contact {contact:(row.contact)}) CREATE (company)-[:CONTACT]->(contact)
+
+LOAD CSV WITH HEADERS FROM "file:///ra.csv" AS row MATCH (company:Company { rfc:(row.rfc)}),(address:Address {address:(row.address)}) CREATE (company)-[:ADDRESS]->(adddress)
+
+LOAD CSV WITH HEADERS FROM "file:///re.csv" AS row MATCH (company:Company { rfc:(row.rfc)}),(email:Email {email:(row.email)}) CREATE (company)-[:EMAIL]->(email)
+
+LOAD CSV WITH HEADERS FROM "file:///rT.csv" AS row MATCH (company:Company { rfc:(row.rfc)}),(telephone:Telephone {telephone:(row.telephone)}) CREATE (company)-[:TELEPHONE]->(telephone)
+
+
+#Create constrains CREATE CONSTRAINT ON (p:Company) ASSERT p.id IS UNIQUE CREATE CONSTRAINT ON (contract:Contract) ASSERT contract.id IS UNIQUE
