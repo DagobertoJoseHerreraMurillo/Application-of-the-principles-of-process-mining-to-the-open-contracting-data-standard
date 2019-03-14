@@ -125,6 +125,9 @@ There is a clear association between conformance checking and fraud detection, e
 <a name="question"/><br/>
 **Research questions**
 
+
+How to detect without mentioning the techniques in detail?
+
 How can process mining be effectively combined with other data mining techniques for the detection and prevention of threats of corruption, collusion, or anti-competitive practices in public contracting processes?
 
 This main question can be split into the following sub-questions:
