@@ -51,6 +51,7 @@ LOAD CSV WITH HEADERS FROM "file:///address.csv" AS row CREATE (address:Address{
 #Atender los strings de varios correos
 LOAD CSV WITH HEADERS FROM "file:///email.csv" AS row CREATE (email:Email{email:(row.email)})
 
+#Atender los strings de varios telefonos
 LOAD CSV WITH HEADERS FROM "file:///telephone.csv" AS row CREATE (telephone:Telephone{telephone:(row.telephone)})
 
 LOAD CSV WITH HEADERS FROM "file:///rcc.csv" AS row MATCH (company:Company { rfc:(row.rfc)}),(contract:Contract { ocid:(row.ocid)}) CREATE (company)-[:PARTICIPATED]->(contract)
