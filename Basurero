@@ -48,6 +48,7 @@ LOAD CSV WITH HEADERS FROM "file:///contacts.csv" AS row CREATE (contact:Contact
 
 LOAD CSV WITH HEADERS FROM "file:///address.csv" AS row CREATE (address:Address{address:(row.address)})
 
+#Atender los strings de varios correos
 LOAD CSV WITH HEADERS FROM "file:///email.csv" AS row CREATE (email:Email{email:(row.email)})
 
 LOAD CSV WITH HEADERS FROM "file:///telephone.csv" AS row CREATE (telephone:Telephone{telephone:(row.telephone)})
