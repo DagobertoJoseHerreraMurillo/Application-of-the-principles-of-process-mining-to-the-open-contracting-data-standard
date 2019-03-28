@@ -70,3 +70,7 @@ LOAD CSV WITH HEADERS FROM "file:///rT.csv" AS row MATCH (company:Company { rfc:
 
 
 MATCH (p1:Company)-[:CONTACT|TELEPHONE*]->(p3)<-[:CONTACT|TELEPHONE*]-(p2:Company) WHERE p1 <> p2 RETURN *
+
+
+Hallazgos
+ocds-07smqs-1520579
