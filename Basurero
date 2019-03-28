@@ -58,7 +58,7 @@ LOAD CSV WITH HEADERS FROM "file:///rcc.csv" AS row MATCH (company:Company { rfc
 
 LOAD CSV WITH HEADERS FROM "file:///rc.csv" AS row MATCH (company:Company { rfc:(row.rfc)}),(contact:Contact {contact:(row.contact)}) CREATE (company)-[:CONTACT]->(contact)
 
-LOAD CSV WITH HEADERS FROM "file:///ra.csv" AS row MATCH (company:Company { rfc:(row.rfc)}),(address:Address {address:(row.address)}) CREATE (company)-[:ADDRESS]->(adddress)
+LOAD CSV WITH HEADERS FROM "file:///ra.csv" AS row MATCH (company:Company { rfc:(row.rfc)}),(address:Address {address:(row.address)}) CREATE (company)-[:ADDRESS]->(address)
 
 LOAD CSV WITH HEADERS FROM "file:///re.csv" AS row MATCH (company:Company { rfc:(row.rfc)}),(email:Email {email:(row.email)}) CREATE (company)-[:EMAIL]->(email)
 
