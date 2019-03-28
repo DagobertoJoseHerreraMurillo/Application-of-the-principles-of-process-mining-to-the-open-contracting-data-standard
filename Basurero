@@ -74,3 +74,4 @@ MATCH (p1:Company)-[:CONTACT|TELEPHONE*]->(p3)<-[:CONTACT|TELEPHONE*]-(p2:Compan
 
 Hallazgos
 ocds-07smqs-1520579
+Investigar por qué hay correos gubernamentales en los corresos que deberían ser de proveedores
