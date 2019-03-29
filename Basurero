@@ -75,3 +75,11 @@ MATCH (p1:Company)-[:CONTACT|TELEPHONE*]->(p3)<-[:CONTACT|TELEPHONE*]-(p2:Compan
 Hallazgos
 ocds-07smqs-1520579
 Investigar por qué hay correos gubernamentales en los corresos que deberían ser de proveedores
+
+
+Grafos para corrupción en anillos
+http://www.ijircce.com/upload/2017/february/62_13_A%20Survey.pdf
+https://neo4j.com/blog/fraud-rings-graph-databases-infographic/
+https://www.researchgate.net/publication/310671750_Rogue_behavior_detection_in_NoSQL_graph_databases
+https://www.researchgate.net/publication/307882419_Graph_Analytics_for_Real-time_Scoring_of_Cross-channel_Transactional_Fraud
+
