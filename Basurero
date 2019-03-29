@@ -83,3 +83,6 @@ https://neo4j.com/blog/fraud-rings-graph-databases-infographic/
 https://www.researchgate.net/publication/310671750_Rogue_behavior_detection_in_NoSQL_graph_databases
 https://www.researchgate.net/publication/307882419_Graph_Analytics_for_Real-time_Scoring_of_Cross-channel_Transactional_Fraud
 
+MATCH (movie:Movie {title:"test"})
+OPTIONAL MATCH (movie)-[r]-() 
+DELETE movie, r
