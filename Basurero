@@ -46,6 +46,7 @@ LOAD CSV WITH HEADERS FROM "file:///contracts.csv" AS row CREATE (contract:Contr
 
 LOAD CSV WITH HEADERS FROM "file:///contacts.csv" AS row CREATE (contact:Contact{contact:(row.contact)})
 
+#Hacer un trim a las direcciones/quitar fechas en blanco
 LOAD CSV WITH HEADERS FROM "file:///address.csv" AS row CREATE (address:Address{address:(row.address)})
 
 #Atender los strings de varios correos
