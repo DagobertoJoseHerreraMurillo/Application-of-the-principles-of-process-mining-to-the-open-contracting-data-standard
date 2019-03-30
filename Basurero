@@ -73,6 +73,9 @@ LOAD CSV WITH HEADERS FROM "file:///rT.csv" AS row MATCH (company:Company { rfc:
 MATCH (p1:Company)-[:CONTACT|TELEPHONE*]->(p3)<-[:CONTACT|TELEPHONE*]-(p2:Company) WHERE p1 <> p2 RETURN *
 
 
+MATCH (p1:Company)-[:CONTACT|TELEPHONE|ADDRESS*]->(p3)<-[:CONTACT|TELEPHONE|ADDRESS*]-(p2:Company),(p1)-[:PARTICIPATED*]->(p4)<-[:PARTICIPATED*]-(p2) WHERE p1 <> p2 RETURN *
+
+
 Hallazgos
 ocds-07smqs-1520579
 Investigar por qué hay correos gubernamentales en los corresos que deberían ser de proveedores
