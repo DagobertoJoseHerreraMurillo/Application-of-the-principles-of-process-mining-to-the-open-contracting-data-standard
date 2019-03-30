@@ -55,6 +55,8 @@ LOAD CSV WITH HEADERS FROM "file:///email.csv" AS row CREATE (email:Email{email:
 #Atender los strings de varios telefonos
 LOAD CSV WITH HEADERS FROM "file:///telephone.csv" AS row CREATE (telephone:Telephone{telephone:(row.telephone)})
 
+CREATE INDEX ON :Company(rfc)
+
 LOAD CSV WITH HEADERS FROM "file:///rcc.csv" AS row MATCH (company:Company { rfc:(row.rfc)}),(contract:Contract { ocid:(row.ocid)}) CREATE (company)-[:PARTICIPATED]->(contract)
 
 LOAD CSV WITH HEADERS FROM "file:///rc.csv" AS row MATCH (company:Company { rfc:(row.rfc)}),(contact:Contact {contact:(row.contact)}) CREATE (company)-[:CONTACT]->(contact)
@@ -72,8 +74,12 @@ LOAD CSV WITH HEADERS FROM "file:///rT.csv" AS row MATCH (company:Company { rfc:
 
 MATCH (p1:Company)-[:CONTACT|TELEPHONE*]->(p3)<-[:CONTACT|TELEPHONE*]-(p2:Company) WHERE p1 <> p2 RETURN *
 
+Con p4
+MATCH (p5:Contract)<-[:PARTICIPATED*]-(p1:Company)-[:CONTACT|TELEPHONE|ADDRESS*]->(p3)<-[:CONTACT|TELEPHONE|ADDRESS*]-(p2:Company)-[:PARTICIPATED*]->(p6:Contract),(p1)-[:PARTICIPATED*]->(p4:Contract)<-[:PARTICIPATED*]-(p2) WHERE p1 <> p2 AND p5 <> p6 RETURN *
 
-MATCH (p1:Company)-[:CONTACT|TELEPHONE|ADDRESS*]->(p3)<-[:CONTACT|TELEPHONE|ADDRESS*]-(p2:Company),(p1)-[:PARTICIPATED*]->(p4)<-[:PARTICIPATED*]-(p2) WHERE p1 <> p2 RETURN *
+
+Sin p4
+MATCH (p5:Contract)<-[:PARTICIPATED*]-(p1:Company)-[:CONTACT|TELEPHONE|ADDRESS*]->(p3)<-[:CONTACT|TELEPHONE|ADDRESS*]-(p2:Company)-[:PARTICIPATED*]->(p6:Contract),(p1)-[:PARTICIPATED*]->()<-[:PARTICIPATED*]-(p2) WHERE p1 <> p2 AND p5 <> p6 RETURN *
 
 
 Hallazgos
