@@ -65,7 +65,7 @@ LOAD CSV WITH HEADERS FROM "file:///ra.csv" AS row MATCH (company:Company { rfc:
 
 LOAD CSV WITH HEADERS FROM "file:///re.csv" AS row MATCH (company:Company { rfc:(row.rfc)}),(email:Email {email:(row.email)}) CREATE (company)-[:EMAIL]->(email)
 
-LOAD CSV WITH HEADERS FROM "file:///rT.csv" AS row MATCH (company:Company { rfc:(row.rfc)}),(telephone:Telephone {telephone:(row.telephone)}) CREATE (company)-[:TELEPHONE]->(telephone)
+LOAD CSV WITH HEADERS FROM "file:///rt.csv" AS row MATCH (company:Company { rfc:(row.rfc)}),(telephone:Telephone {telephone:(row.telephone)}) CREATE (company)-[:TELEPHONE]->(telephone)
 
 
 #Create constrains CREATE CONSTRAINT ON (p:Company) ASSERT p.id IS UNIQUE CREATE CONSTRAINT ON (contract:Contract) ASSERT contract.id IS UNIQUE
