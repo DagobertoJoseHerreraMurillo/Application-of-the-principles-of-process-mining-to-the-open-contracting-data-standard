@@ -96,3 +96,9 @@ https://www.researchgate.net/publication/307882419_Graph_Analytics_for_Real-time
 MATCH (movie:Movie {title:"test"})
 OPTIONAL MATCH (movie)-[r]-() 
 DELETE movie, r
+
+QUERY QUE FUNCIONA
+MATCH (p5:Contract)<-[:PARTICIPATED]-(p1:Company)-[:CONTACT|TELEPHONE|ADDRESS]->(p3)<-[:CONTACT|TELEPHONE|ADDRESS]-(p2:Company)-[:PARTICIPATED]->(p6:Contract),(p1)-[:PARTICIPATED]->(p4:Contract)<-[:PARTICIPATED]-(p2) WHERE p1 <> p2 AND p5 <> p6 RETURN p1,p2 LIMIT 3
+
+RELACIONES
+MATCH (c:Company{rfc:"FMA9301181B1"})-[r:EMAIL|ADDRESS|CONTACT|TELEPHONE]-(p)-[r1:EMAIL|ADDRESS|CONTACT|TELEPHONE]-(p1) RETURN *
