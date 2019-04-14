@@ -91,6 +91,16 @@ MATCH (a:Company {name: 'acondicionamiento en potencia y comunicaciones sa de cv
 RETURN a,b
 
 
+Revisar luego RCF raros y a estas empresas raras
+261474206	optimum vehicle logistics llc
+101785	optimum vehicle logistics.
+1-75-2742183-2	tex-air parts international, ltd
+95094	tex-air parts international, ltd
+541767149	tesla inc
+0	aviation parts executive, inc
+80-0696494	aviation international solutions
+
+
 
 Grafos para corrupción en anillos
 http://www.ijircce.com/upload/2017/february/62_13_A%20Survey.pdf
