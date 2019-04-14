@@ -86,6 +86,11 @@ Hallazgos
 ocds-07smqs-1520579
 Investigar por qué hay correos gubernamentales en los corresos que deberían ser de proveedores
 
+Estas son las empresas que Miriam detectó que tenían accionistas comunes
+MATCH (a:Company {name: 'acondicionamiento en potencia y comunicaciones sa de cv'})-[:PARTICIPATED|ADDRESS]->(b)
+RETURN a,b
+
+
 
 Grafos para corrupción en anillos
 http://www.ijircce.com/upload/2017/february/62_13_A%20Survey.pdf
